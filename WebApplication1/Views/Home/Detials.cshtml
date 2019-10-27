@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.title = "Detials";
+}
+
+
+    <h1>Detials</h1>
+<input type="button"id="btn1" value="Get" class="btn btn-success" />
+<div id="div1">
+
+
+</div>
+@section Scripts{
+    <script>
+        $("#btn1").on("click", function () {
+
+            $("#div1").load("/home/getstd")
+          //  alert("Hi")
+        })
+    </script>
+    }
