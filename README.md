@@ -1,2 +1,4 @@
 # FirstAppInMVC
-RedTie
+
+- In the name of Allah
+- ![](./PIC/Capture.PNG)
